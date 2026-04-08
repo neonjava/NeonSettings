@@ -1,0 +1,34 @@
+gui:
+  title: "§8Player Settings"
+  rows: 3
+  items:
+    tpa_toggle:
+      material: ENDER_PEARL
+      slot: 11
+      name: "§e§lTPA Toggle"
+      lore:
+        - "§7Toggle whether you receive"
+        - "§7teleport requests."
+        - ""
+        - "§eClick to toggle!"
+      command: "tpatoggle"
+    tpahere_toggle:
+      material: ENDER_EYE
+      slot: 13
+      name: "§b§lTPA-Here Toggle"
+      lore:
+        - "§7Toggle whether you receive"
+        - "§7teleport-here requests."
+        - ""
+        - "§eClick to toggle!"
+      command: "tpaheretoggle"
+    claim_gui:
+      material: GOLDEN_HOE
+      slot: 15
+      name: "§a§lClaim Management"
+      lore:
+        - "§7Open the land claiming"
+        - "§7management interface."
+        - ""
+        - "§eClick to open!"
+      command: "claim"

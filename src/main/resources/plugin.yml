@@ -1,0 +1,9 @@
+name: NeonSettings
+version: 1.0.0
+main: dev.neonjava.settings.SettingsPlugin
+api-version: 1.21
+description: Configurable Settings GUI
+commands:
+  settings:
+    description: Open the settings GUI.
+    usage: /settings
